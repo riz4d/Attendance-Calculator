@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Attendance Calculator</title>
+</head>
+
+<body>
+    <h2>Attendance Calculator</h2>
+    <div class="form">
+        <form action="/" method="POST">
+            <div class="form_items">
+                <label for="">Enter the total number of periods: </label>
+                <br>
+                <input name="total" id="total" type="number">
+            </div>
+            <div class="form_items">
+                <label for="">Enter number of attended periods: </label>
+                <br>
+                <input id="attended" name="attended" type="number">
+            </div>
+            <div class="form_items">
+                <label for="">Minimum attendance percentage: </label>
+                <br>
+                <input name="minpercentage" id="minpercentage" type="number" value="75">
+            </div>
+            <div class="btn">
+                <button type="submit">Check</button>
+            </div>
+            
+        </form>
+    </div>
+        <div class="result">
+            <p>{{ attend.0 }}</p>
+            <p>{{ attend.1 }}</p>
+            <p>{{ attend.2 }}</p>
+            <p>{{ attend.3 }}</p>
+        </div>
+        
+    <footer>
+        <p>Made by <a href="">rizad</a> & <a href="">adarsh</a></p>
+    </footer>
+    
+</body>
+</html>
