@@ -1,6 +1,6 @@
 # Attendance Calculator
 
-Python Flask app calculates your attendance percentage and provides advice on how to achieve a specific attendance percentage in a semester. It also suggests the number of lectures or days you can bunk while maintaining your current attendance.
+Flask app calculates your attendance percentage and provides advice on how to achieve a specific attendance percentage in a semester. It also suggests the number of lectures or days you can bunk while maintaining your current attendance.
 
 ## Introduction
 
