@@ -17,6 +17,9 @@ h2{
 .form_items label{
     text-align: left;
 }
+.form p{
+    color: red;
+}
 
 .form_items input {
     width: 290px;
