@@ -1,10 +1,10 @@
 # Attendance Calculator
 
-Python script calculates your attendance percentage and provides advice on how to achieve a specific attendance percentage in a semester. It also suggests the number of lectures or days you can bunk while maintaining your current attendance.
+Python Flask app calculates your attendance percentage and provides advice on how to achieve a specific attendance percentage in a semester. It also suggests the number of lectures or days you can bunk while maintaining your current attendance.
 
 ## Introduction
 
-Maintaining good attendance is crucial for academic success. This script helps you understand your current attendance and provides guidance on how to reach a desired attendance percentage. It also suggests the number of lectures or days you can bunk without falling below a certain percentage.
+Maintaining good attendance is crucial for academic success. This app helps you understand your current attendance and provides guidance on how to reach a desired attendance percentage. It also suggests the number of lectures or days you can bunk without falling below a certain percentage.
 
 ## Usage
 
@@ -16,11 +16,12 @@ Maintaining good attendance is crucial for academic success. This script helps y
 ```
 pip install -r requirements.txt
 ```
-2. Then run the script with
+3. Then run the script with
 
 ```
 python3 app.py
 ```
+4. Now it's running in your localhost
 
 
 ## Explanation
