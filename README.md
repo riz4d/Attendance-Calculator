@@ -26,7 +26,7 @@ python3 app.py
 
 ## Explanation
 
-The `attendance_calc` function performs the following steps:
+This program performs the following steps:
 
 1. Calculates the current attendance percentage based on the input data and rounds it to two decimal places.
 
